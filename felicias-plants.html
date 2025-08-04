@@ -116,7 +116,11 @@
             box-shadow: 0 20px 40px rgba(0,0,0,0.15);
             border-color: #4CAF50;
         }
-        
+
+        .plant-card.clicked {
+            transform: scale(0.95);
+        }
+
         .plant-card:hover::before {
             transform: scaleX(1);
         }
@@ -475,22 +479,14 @@
             
             cards.forEach((card, index) => {
                 card.style.animationDelay = `${index * 0.1}s`;
-                
-                card.addEventListener('mouseenter', function() {
-                    this.style.transform = 'translateY(-10px) scale(1.02)';
-                });
-                
-                card.addEventListener('mouseleave', function() {
-                    this.style.transform = 'translateY(0) scale(1)';
-                });
             });
-            
+
             // Add click effect
             cards.forEach(card => {
                 card.addEventListener('click', function() {
-                    this.style.transform = 'scale(0.95)';
+                    this.classList.add('clicked');
                     setTimeout(() => {
-                        this.style.transform = 'translateY(-10px) scale(1.02)';
+                        this.classList.remove('clicked');
                     }, 150);
                 });
             });
