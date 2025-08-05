@@ -1,0 +1,13 @@
+{
+  "name": "felicias-plants",
+  "version": "1.0.0",
+  "description": "Felicia's personal plant care guide",
+  "main": "felicias-plants.html",
+  "scripts": {
+    "build": "echo 'Static site - no build required'",
+    "start": "echo 'Static site - open felicias-plants.html in browser'"
+  },
+  "keywords": ["plants", "care", "guide", "static"],
+  "author": "Felicia",
+  "license": "MIT"
+} 
