@@ -1,18 +1,18 @@
-Plant Name,Care Instructions
-Pink Princess Philodendron,Bright indirect light. Let top inch of soil dry before watering. Prefers moderate to high humidity. Avoid direct sunlight to preserve variegation.
-Calathea (likely roseopicta),"Low to medium indirect light. Keep soil consistently moist, not soggy. High humidity is essential. Use distilled water to avoid leaf browning."
-Succulents (zebra haworthia + haworthia cooperi),"Bright direct light. Allow soil to dry completely between waterings. Low humidity. Use a gritty, well-draining soil mix."
-Cactus + Echeveria,Full sun. Let soil dry out completely before watering. Very low humidity needs. Avoid cold drafts.
-Assorted Cactus,Bright direct light. Minimal water. Ensure excellent drainage. Rotate to promote even growth.
-Propeller Plant (Crassula perfoliata),Bright direct sun. Let soil dry fully. Low humidity. Avoid misting or overwatering.
-String of Pearls,Bright indirect to direct light. Let soil dry fully between waterings. Low humidity. Use shallow pots with drainage.
-Tradescantia (Rainbow variety),Bright indirect light. Keep soil slightly moist. Medium humidity. Pinch tips to maintain fullness.
-Orchid (Phalaenopsis),Bright indirect light. Water weekly in bark mix. Avoid wetting crown. High humidity preferred.
-Aloe Vera,Bright direct light. Let soil dry completely before watering. Low humidity. Avoid cold or drafty areas.
-Rattlesnake Plant (Calathea lancifolia),Low to medium indirect light. Keep soil consistently moist. High humidity is essential. Use distilled water if possible.
-Polka Dot Plants (Hypoestes phyllostachya),Bright indirect light. Keep soil lightly moist. High humidity preferred. Pinch back regularly to prevent legginess.
-Bromeliad,Bright indirect light. Keep water in central 'cup'. Flush cup weekly to prevent buildup. Moderate to high humidity.
-Croton,Bright indirect light. Keep soil moist but not soggy. High humidity preferred. Sensitive to drafts and low light.
-White Knight Philodendron,Bright indirect light. Let top inch of soil dry before watering. Moderate to high humidity. Wipe leaves occasionally.
-Snake Plant,Low to bright indirect light. Let soil dry completely between watering. Very tolerant. Avoid overwatering.
-Monstera Deliciosa,Bright indirect light. Water when top inch of soil is dry. Likes moderate humidity. Stake or plank for support.
+Plant Name,Image File,Category,Light,Water,Notes
+Pink Princess Philodendron,pink-princess-philadendron.jpeg,Tropical & Foliage,Bright indirect light.,Let top inch of soil dry before watering.,Prefers moderate to high humidity. Avoid direct sunlight to preserve variegation.
+Calathea (likely roseopicta),calathea.jpeg,Tropical & Foliage,Low to medium indirect light.,"Keep soil consistently moist, not soggy.",High humidity is essential. Use distilled water to avoid leaf browning.
+Rattlesnake Plant (Calathea lancifolia),rattlesnake-plant.jpeg,Tropical & Foliage,Low to medium indirect light.,Keep soil consistently moist.,High humidity is essential. Use distilled water if possible.
+Croton,croton.jpeg,Tropical & Foliage,Bright indirect light.,Keep soil moist but not soggy.,High humidity preferred. Sensitive to drafts and low light.
+White Knight Philodendron,Whie-knight.jpeg,Tropical & Foliage,Bright indirect light.,Let top inch of soil dry before watering.,Moderate to high humidity. Wipe leaves occasionally.
+Snake Plant,snake-plant.jpeg,Tropical & Foliage,Low to bright indirect light.,Let soil dry completely between watering.,Very tolerant. Avoid overwatering.
+Monstera Deliciosa,monstera-delicioisa.jpeg,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Likes moderate humidity. Stake or plank for support.
+Polka Dot Plants (Hypoestes phyllostachya),polka-dot-plants.jpeg,Tropical & Foliage,Bright indirect light.,Keep soil lightly moist.,High humidity preferred. Pinch back regularly to prevent legginess.
+Tradescantia (Rainbow variety),tradescantia.jpeg,Tropical & Foliage,Bright indirect light.,Keep soil slightly moist.,Medium humidity. Pinch tips to maintain fullness.
+Bromeliad,Bromeliad.jpeg,Tropical & Foliage,Bright indirect light.,Keep water in central 'cup'.,Flush cup weekly to prevent buildup. Moderate to high humidity.
+Orchid (Phalaenopsis),orchid.jpeg,Tropical & Foliage,Bright indirect light.,Water weekly in bark mix.,Avoid wetting crown. High humidity preferred.
+Succulents (zebra haworthia + haworthia cooperi),suculents.jpeg,Succulents & Cacti,Bright direct light.,Allow soil to dry completely between waterings.,"Low humidity. Use a gritty, well-draining soil mix."
+Cactus + Echeveria,cactus-and-succulent.jpeg,Succulents & Cacti,Full sun.,Let soil dry out completely before watering.,Very low humidity needs. Avoid cold drafts.
+Assorted Cactus,more-succulents.jpeg,Succulents & Cacti,Bright direct light.,Minimal water.,Ensure excellent drainage. Rotate to promote even growth.
+Propeller Plant (Crassula perfoliata),propeller-plant.jpeg,Succulents & Cacti,Bright direct sun.,Let soil dry fully.,Low humidity. Avoid misting or overwatering.
+String of Pearls,string-of-pearls.jpeg,Succulents & Cacti,Bright indirect to direct light.,Let soil dry fully between waterings.,Low humidity. Use shallow pots with drainage.
+Aloe Vera,aloe-vera.jpeg,Succulents & Cacti,Bright direct light.,Let soil dry completely before watering.,Low humidity. Avoid cold or drafty areas.

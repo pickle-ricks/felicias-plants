@@ -80,4 +80,4 @@ This collection contains **17 different plants** organized into two main categor
 - **Tropical & Foliage Plants (11 plants):** These prefer higher humidity and indirect light
 - **Succulents & Cacti (6 plants):** These prefer bright direct light and minimal watering
 
-Each plant has been matched with its corresponding image file and specific care instructions for optimal growth and health. 
+Each plant has been matched with its corresponding image file and specific care instructions for optimal growth and health.
