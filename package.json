@@ -9,5 +9,6 @@
   },
   "keywords": ["plants", "care", "guide", "static"],
   "author": "Felicia",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 } 
