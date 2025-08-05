@@ -30,20 +30,55 @@ body {
 }
 
 .header h1 {
-    font-size: 3.5em;
-    font-weight: 700;
-    background: linear-gradient(45deg, #4CAF50, #8BC34A, #CDDC39);
+    font-size: 4.5em;
+    font-weight: 800;
+    background: linear-gradient(45deg, #4CAF50, #8BC34A, #CDDC39, #FFD700);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: 15px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+    letter-spacing: 2px;
+    position: relative;
+    animation: titleGlow 3s ease-in-out infinite alternate;
+}
+
+.header h1::before {
+    content: '🌱';
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.6em;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.header h1::after {
+    content: '🌱';
+    position: absolute;
+    right: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.6em;
+    animation: bounce 2s ease-in-out infinite 0.5s;
 }
 
 .header p {
     font-size: 1.2em;
     color: #718096;
     font-weight: 300;
+}
+
+.personal-message {
+    font-size: 1.3em;
+    color: #4CAF50;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    animation: fadeInUp 1.2s ease-out 0.3s both;
 }
 
 .category-section {
@@ -218,6 +253,27 @@ body {
     }
 }
 
+@keyframes titleGlow {
+    from {
+        filter: drop-shadow(0 0 5px rgba(76, 175, 80, 0.3));
+    }
+    to {
+        filter: drop-shadow(0 0 15px rgba(76, 175, 80, 0.6));
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(-50%) scale(1);
+    }
+    40% {
+        transform: translateY(-50%) scale(1.2);
+    }
+    60% {
+        transform: translateY(-50%) scale(1.1);
+    }
+}
+
 .floating-emoji {
     position: fixed;
     font-size: 2em;
@@ -247,7 +303,13 @@ body {
     }
     
     .header h1 {
-        font-size: 2.5em;
+        font-size: 3em;
+        letter-spacing: 1px;
+    }
+    
+    .header h1::before,
+    .header h1::after {
+        display: none;
     }
     
     .plants-grid {
