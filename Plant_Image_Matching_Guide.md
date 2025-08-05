@@ -5,7 +5,7 @@ This guide matches each plant image file with its correct name and care instruct
 ## 🌺 Tropical & Foliage Plants
 
 ### 1. Pink Princess Philodendron
-- **Image File:** `pink-princess-philadendron.jpeg`
+- **Image File:** `pink-princess-philodendron.jpeg`
 - **Care Instructions:** Bright indirect light. Let top inch of soil dry before watering. Prefers moderate to high humidity. Avoid direct sunlight to preserve variegation.
 
 ### 2. Calathea (likely roseopicta)
@@ -21,7 +21,7 @@ This guide matches each plant image file with its correct name and care instruct
 - **Care Instructions:** Bright indirect light. Keep soil moist but not soggy. High humidity preferred. Sensitive to drafts and low light.
 
 ### 5. White Knight Philodendron
-- **Image File:** `Whie-knight.jpeg`
+- **Image File:** `white-knight.jpeg`
 - **Care Instructions:** Bright indirect light. Let top inch of soil dry before watering. Moderate to high humidity. Wipe leaves occasionally.
 
 ### 6. Snake Plant
@@ -29,7 +29,7 @@ This guide matches each plant image file with its correct name and care instruct
 - **Care Instructions:** Low to bright indirect light. Let soil dry completely between watering. Very tolerant. Avoid overwatering.
 
 ### 7. Monstera Deliciosa
-- **Image File:** `monstera-delicioisa.jpeg`
+- **Image File:** `monstera-deliciosa.jpeg`
 - **Care Instructions:** Bright indirect light. Water when top inch of soil is dry. Likes moderate humidity. Stake or plank for support.
 
 ### 8. Polka Dot Plants (Hypoestes phyllostachya)
@@ -51,7 +51,7 @@ This guide matches each plant image file with its correct name and care instruct
 ## 🌵 Succulents & Cacti
 
 ### 12. Succulents (zebra haworthia + haworthia cooperi)
-- **Image File:** `suculents.jpeg`
+- **Image File:** `succulents.jpeg`
 - **Care Instructions:** Bright direct light. Allow soil to dry completely between waterings. Low humidity. Use a gritty, well-draining soil mix.
 
 ### 13. Cactus + Echeveria
