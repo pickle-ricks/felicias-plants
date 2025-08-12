@@ -1,35 +1,48 @@
 Plant Name,Image File,Category,Light,Water,Notes
-Pink Princess Philodendron,pink-princess-philadendron.jpeg,Tropical & Foliage,Bright indirect light.,Let top inch of soil dry before watering.,Prefers moderate to high humidity. Avoid direct sunlight to preserve variegation.
-Calathea (likely roseopicta),calathea.jpeg,Tropical & Foliage,Low to medium indirect light.,"Keep soil consistently moist, not soggy.",High humidity is essential. Use distilled water to avoid leaf browning.
-Rattlesnake Plant (Calathea lancifolia),rattlesnake-plant.jpeg,Tropical & Foliage,Low to medium indirect light.,Keep soil consistently moist.,High humidity is essential. Use distilled water if possible.
-Croton,croton.jpeg,Tropical & Foliage,Bright indirect light.,Keep soil moist but not soggy.,High humidity preferred. Sensitive to drafts and low light.
-White Knight Philodendron,white-knight.jpeg,Tropical & Foliage,Bright indirect light.,Let top inch of soil dry before watering.,Moderate to high humidity. Wipe leaves occasionally.
-Snake Plant,snake-plant.jpeg,Tropical & Foliage,Low to bright indirect light.,Let soil dry completely between watering.,Very tolerant. Avoid overwatering.
-Monstera Deliciosa,monstera-deliciosa.jpeg,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Likes moderate humidity. Stake or plank for support.
-Polka Dot Plants (Hypoestes phyllostachya),polka-dot-plants.jpeg,Tropical & Foliage,Bright indirect light.,Keep soil lightly moist.,High humidity preferred. Pinch back regularly to prevent legginess.
-Tradescantia (Rainbow variety),tradescantia.jpeg,Tropical & Foliage,Bright indirect light.,Keep soil slightly moist.,Medium humidity. Pinch tips to maintain fullness.
-Bromeliad,Bromeliad.jpeg,Tropical & Foliage,Bright indirect light.,Keep water in central 'cup'.,Flush cup weekly to prevent buildup. Moderate to high humidity.
-Orchid (Phalaenopsis),orchid.jpeg,Tropical & Foliage,Bright indirect light.,Water weekly in bark mix.,Avoid wetting crown. High humidity preferred.
-Pothos,pothos.jpeg,Tropical & Foliage,Low to bright indirect light.,Water when top inch of soil is dry.,Very tolerant. Can grow in water or soil. Trim to maintain shape.
-Bird of Paradise,bird-of-paradise.jpeg,Tropical & Foliage,Bright indirect to direct light.,Keep soil moist but not soggy.,High humidity preferred. Wipe leaves regularly. Needs space to grow.
-Rubber Plant,rubber-plant.jpeg,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Wipe leaves regularly. Moderate humidity. Can grow quite large.
-Alocasia Green Dragon,alocasia-green-dragon.jpeg,Tropical & Foliage,Bright indirect light.,Keep soil consistently moist but not waterlogged.,High humidity essential. Sensitive to temperature changes.
-Monstera Adansonii,monstera-adansonii.jpeg,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Provide climbing support. Moderate to high humidity.
-Piper Crocatum (Glass Globe),piper-crocatum.jpeg,Tropical & Foliage,Bright indirect light.,Keep soil moist but not soggy.,High humidity required. Beautiful silver markings on leaves.
-Dracaena Fragrans (Jessina),dracaena-fragrans.jpeg,Tropical & Foliage,Low to medium indirect light.,Water when top inch of soil is dry.,Very tolerant. Use distilled water to prevent leaf browning.
-Scindapsus Silver Exotica (Silver Pothos),scindapsus-silver.jpeg,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Moderate humidity. Beautiful silver variegation on leaves.
-Dischidia Ovata (Hanging),dischidia-ovata.jpeg,Tropical & Foliage,Bright indirect light.,Water when soil is almost dry.,Epiphytic plant. High humidity preferred. Good for hanging baskets.
-Red Vein Maranta (Prayer Plant),red-vein-maranta.jpeg,Tropical & Foliage,Low to medium indirect light.,Keep soil consistently moist.,High humidity essential. Leaves fold at night like praying hands.
-Spider Plant Vittatum,spider-plant.jpeg,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Very easy to care for. Produces plantlets for propagation.
-Peperomia Rotundifolia (Trailing Jade),peperomia-rotundifolia.jpeg,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Moderate humidity. Great for hanging baskets or trailing displays.
-Peperomia Argyreia (Watermelon Plant),peperomia-argyreia.jpeg,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Moderate humidity. Distinctive watermelon-striped leaves.
-Succulents (zebra haworthia + haworthia cooperi),succulents.jpeg,Succulents & Cacti,Bright direct light.,Allow soil to dry completely between waterings.,"Low humidity. Use a gritty, well-draining soil mix."
-Cactus + Echeveria,cactus-and-succulent.jpeg,Succulents & Cacti,Full sun.,Let soil dry out completely before watering.,Very low humidity needs. Avoid cold drafts.
-Assorted Cactus,more-succulents.jpeg,Succulents & Cacti,Bright direct light.,Minimal water.,Ensure excellent drainage. Rotate to promote even growth.
-Propeller Plant (Crassula perfoliata),propeller-plant.jpeg,Succulents & Cacti,Bright direct sun.,Let soil dry fully.,Low humidity. Avoid misting or overwatering.
-String of Pearls,string-of-pearls.jpeg,Succulents & Cacti,Bright indirect to direct light.,Let soil dry fully between waterings.,Low humidity. Use shallow pots with drainage.
-Aloe Vera,aloe-vera.jpeg,Succulents & Cacti,Bright direct light.,Let soil dry completely before watering.,Low humidity. Avoid cold or drafty areas.
-Kalanchoe Tomentosa (Panda Plant),kalanchoe-tomentosa.jpeg,Succulents & Cacti,Bright direct light.,Water deeply but infrequently.,Fuzzy velvety leaves. Low humidity. Very drought tolerant.
-Pothos (Aquatic),pothos-aquatic.jpeg,Aquatic & Fish Tank,Aquarium lighting or bright indirect light.,Roots submerged in fish tank water.,Helps filter tank water. Keep leaves above waterline.
-Bamboo (Aquatic),bamboo-aquatic.jpeg,Aquatic & Fish Tank,Low to medium aquarium lighting.,Grows well in fish tank water.,Actually Dracaena sanderiana. Excellent for aquariums.
-Tradescantia (Aquatic),tradescantia-aquatic.jpeg,Aquatic & Fish Tank,Bright aquarium lighting.,Roots in water leaves above surface.,Fast growing. Trim regularly to maintain shape.
+Pink Princess Philodendron,pink_princess_philodendron,Tropical & Foliage,Bright indirect light.,Let top inch of soil dry before watering.,Prefers moderate to high humidity. Avoid direct sunlight to preserve variegation.
+Calathea (likely roseopicta),calathea_roseopicta_medallion,Tropical & Foliage,Low to medium indirect light.,"Keep soil consistently moist, not soggy.",High humidity is essential. Use distilled water to avoid leaf browning.
+Rattlesnake Plant (Calathea lancifolia),rattlesnake_plant,Tropical & Foliage,Low to medium indirect light.,Keep soil consistently moist.,High humidity is essential. Use distilled water if possible.
+Croton,croton,Tropical & Foliage,Bright indirect light.,Keep soil moist but not soggy.,High humidity preferred. Sensitive to drafts and low light.
+White Knight Philodendron,white_knight_philodendron,Tropical & Foliage,Bright indirect light.,Let top inch of soil dry before watering.,Moderate to high humidity. Wipe leaves occasionally.
+Monstera Deliciosa,monstera_deliciosa,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Likes moderate humidity. Stake or plank for support.
+Polka Dot Plants (Hypoestes phyllostachya),polka_dot_plant_white,Tropical & Foliage,Bright indirect light.,Keep soil lightly moist.,High humidity preferred. Pinch back regularly to prevent legginess.
+Tradescantia (Rainbow variety),wandering_dude_tradescantia,Tropical & Foliage,Bright indirect light.,Keep soil slightly moist.,Medium humidity. Pinch tips to maintain fullness.
+Bromeliad,neoregelia_bromeliad,Tropical & Foliage,Bright indirect light.,Keep water in central 'cup'.,Flush cup weekly to prevent buildup. Moderate to high humidity.
+Orchid (Phalaenopsis),pink_moth_orchid,Tropical & Foliage,Bright indirect light.,Water weekly in bark mix.,Avoid wetting crown. High humidity preferred.
+Pothos,golden_pothos,Tropical & Foliage,Low to bright indirect light.,Water when top inch of soil is dry.,Very tolerant. Can grow in water or soil. Trim to maintain shape.
+Bird of Paradise,bird_of_paradise,Tropical & Foliage,Bright indirect to direct light.,Keep soil moist but not soggy.,High humidity preferred. Wipe leaves regularly. Needs space to grow.
+Rubber Plant,rubber_plant,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Wipe leaves regularly. Moderate humidity. Can grow quite large.
+Alocasia Green Dragon,green_dragon_alocasia,Tropical & Foliage,Bright indirect light.,Keep soil consistently moist but not waterlogged.,High humidity essential. Sensitive to temperature changes.
+Monstera Adansonii,swiss_cheese_monstera,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Provide climbing support. Moderate to high humidity.
+Scindapsus Silver Exotica (Silver Pothos),silver_pothos,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Moderate humidity. Beautiful silver variegation on leaves.
+Red Vein Maranta (Prayer Plant),red_prayer_plant,Tropical & Foliage,Low to medium indirect light.,Keep soil consistently moist.,High humidity essential. Leaves fold at night like praying hands.
+Spider Plant Vittatum,spider_plant,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Very easy to care for. Produces plantlets for propagation.
+Peperomia Argyreia (Watermelon Plant),watermelon_peperomia,Tropical & Foliage,Bright indirect light.,Water when top inch of soil is dry.,Moderate humidity. Distinctive watermelon-striped leaves.
+Succulents (zebra haworthia + haworthia cooperi),echeveria_elegans,Succulents & Cacti,Bright direct light.,Allow soil to dry completely between waterings.,"Low humidity. Use a gritty, well-draining soil mix."
+Cactus + Echeveria,ghost_echeveria,Succulents & Cacti,Full sun.,Let soil dry out completely before watering.,Very low humidity needs. Avoid cold drafts.
+Assorted Cactus,spiny_pincushion_cactus,Succulents & Cacti,Bright direct light.,Minimal water.,Ensure excellent drainage. Rotate to promote even growth.
+Propeller Plant (Crassula perfoliata),paddle_plant,Succulents & Cacti,Bright direct sun.,Let soil dry fully.,Low humidity. Avoid misting or overwatering.
+String of Pearls,string_of_pearls,Succulents & Cacti,Bright indirect to direct light.,Let soil dry fully between waterings.,Low humidity. Use shallow pots with drainage.
+Aloe Vera,aloe_vera,Succulents & Cacti,Bright direct light.,Let soil dry completely before watering.,Low humidity. Avoid cold or drafty areas.
+Kalanchoe Tomentosa (Panda Plant),panda_plant,Succulents & Cacti,Bright direct light.,Water deeply but infrequently.,Fuzzy velvety leaves. Low humidity. Very drought tolerant.
+Pothos (Aquatic),fishtank_plants,Aquatic & Fish Tank,Aquarium lighting or bright indirect light.,Roots submerged in fish tank water.,Helps filter tank water. Keep leaves above waterline.
+Bamboo (Aquatic),fishtank_plants,Aquatic & Fish Tank,Low to medium aquarium lighting.,Grows well in fish tank water.,Actually Dracaena sanderiana. Excellent for aquariums.
+Tradescantia (Aquatic),fishtank_plants,Aquatic & Fish Tank,Bright aquarium lighting.,Roots in water leaves above surface.,Fast growing. Trim regularly to maintain shape.
+Baby Toes Cactus,baby_toes_cactus,Succulents & Cacti,Very bright light; some direct sun,Soak then dry fully; sparse in winter; weak cactus feed in season,Low humidity; gritty mix; avoid globe
+Bunny Ear Cactus,bunny_ear_cactus,Succulents & Cacti,Full sun,Soak then dry completely; very little in winter,Low humidity; do not touch glochids; no globe
+Gymnocalycium Cactus,gymnocalycium_cactus,Succulents & Cacti,Very bright light; some direct sun,Deep soak then fully dry; minimal in winter,Likes cool dry winter rest
+Ladyfinger Cactus,ladyfinger_cactus,Succulents & Cacti,Full sun,Soak-dry cycle; very sparse in winter,Excellent drainage; offsets readily; no globe
+Coral Cactus / Mermaid Tail,coral_cactus_with_mermaid_tail,Succulents & Cacti,Bright light; some direct sun,Allow full dry between waters; light cactus feed warm season,Avoid cold; latex sap is toxic; no misting
+Moth Orchid (Phalaenopsis),moth_orchid,Tropical & Foliage,Bright indirect,Water when bark nearly dry; weak fertilizer weekly; soak-drain,Avoid crown water
+Polka Dot Begonia,polka_dot_begonia,Tropical & Foliage,Bright indirect,Water when top just dries; half strength feed monthly,Stake canes; prune for fullness
+Polka Dot Plant – light pink,Polka_dot_plant_light_pink,Tropical & Foliage,Bright to medium indirect,Evenly moist; light feed every 2–4 weeks,Pinch to keep bushy
+Polka Dot Plant – pink,polka_dot_plant_pink,Tropical & Foliage,Bright to medium indirect,Evenly moist; light feed every 2–4 weeks,Pinch to keep bushy
+Red Aglaonema,red_aglaonema,Tropical & Foliage,Medium to bright indirect,Water when top inch is dry,Even moisture; avoid cold drafts
+Silver Pothos (Scindapsus pictus),silver_pothos,Tropical & Foliage,Bright indirect,Water when top 1–2 inches dry,Trailing or climbing; avoid harsh sun
+Silver Splash Hoya,silver_splash_hoya,Tropical & Foliage,Bright indirect to soft direct,Water thoroughly then dry most of the way,Blooms when root bound; do not remove peduncles
+String of Turtles,string_of_turtles,Tropical & Foliage,Bright indirect,Keep lightly moist; let top half inch dry,Airy mix; fine roots; avoid globe
+Variegated Creeping Fig,variegated_creeping_fig,Tropical & Foliage,Bright to medium indirect,Keep evenly moist; light feed monthly,Clinging vine; prune to contain
+Bamboo (Lucky Bamboo),bamboo,Tropical & Foliage,Bright to medium indirect,If in water change weekly; if potted keep evenly moist,Use distilled or low-fluoride water
+Calathea roseopicta ‘Dottie’,calathea_roseopicta_dottie,Tropical & Foliage,Bright to medium indirect,Keep evenly moist; small regular drinks,High humidity; distilled preferred
+Chinese Money Plant,chinese_money_plant,Tropical & Foliage,Bright indirect,Water when top inch is dry,Prefers even moisture; rotate for even growth
+Piper crocatum,piper_cocatum,Tropical & Foliage,Bright indirect,Keep evenly moist; light feed monthly,High humidity; best under dome
