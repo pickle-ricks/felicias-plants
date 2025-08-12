@@ -30,7 +30,7 @@ export default function RootLayout({
           <div className="max-w-[1200px] mx-auto px-6 sm:px-10 py-3 flex items-center gap-3">
             <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-pink-200/70 text-pink-700 text-lg shadow-sm">💘</span>
             <div className="flex flex-col">
-              <span className="font-display text-xl sm:text-2xl text-emerald-700 drop-shadow-[0_1px_0_rgba(255,255,255,.8)]">Felicia's Plants</span>
+              <span className="font-display text-xl sm:text-2xl text-emerald-700 drop-shadow-[0_1px_0_rgba(255,255,255,.8)]">Felicia&apos;s Plants</span>
               <span className="text-[12px] text-pink-700/80">Cute care guide for happy plants</span>
             </div>
             <div className="ml-auto hidden sm:flex items-center gap-2 text-pink-700/80 text-sm">
