@@ -3,456 +3,469 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🌱 Plant Care Guide 🌱</title>
+    <title>🌱 Felicia's Plant Care Guide 🌱</title>
     <style>
         body {font-family: Arial, sans-serif; background: #f0f4f8; margin: 0; padding: 20px;}
         .container {max-width: 1200px; margin: auto;}
         .category-section {margin-bottom: 40px;}
-        .plants-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap: 20px;}
-        .plant-card {background: #fff; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
-        .plant-card img {width: 100%; border-radius: 4px;}
-        .plant-card h3 {margin: 10px 0;}
+        .plants-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); gap: 20px;}
+        .plant-card {background: #fff; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);}        
+        .plant-card img {width: 100%; height: 350px; object-fit: contain; background: #f7fafc; border-radius: 4px;}
+        .plant-card h3 {margin: 10px 0; color: #2c5530;}
         .care-tips {list-style: none; padding: 0;}
-        .care-tips li {margin-bottom: 5px;}
+        .care-tips li {margin-bottom: 5px; padding: 5px 0;}
+        .emoji-icon {margin-right: 8px;}
+        .category-title {color: #2c5530; border-bottom: 2px solid #4a7c59; padding-bottom: 10px;}
+        .watering-controls {margin-top: 10px; display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 10px;}
+        .next-due {font-size: 0.95rem; color: #1f3d2c;}
+        .interval-wrap {display: flex; align-items: center; gap: 6px;}
+        .interval-input {width: 72px; padding: 4px 6px; border: 1px solid #c8d5cb; border-radius: 6px;}
+        .water-btn {background: #2c5530; color: #fff; border: none; padding: 8px 10px; border-radius: 6px; cursor: pointer;}
+        .water-btn:hover {background: #244626;}
+        .status-pill {display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 0.8rem; margin-left: 6px;}
+        .status-ok {background: #e6f7ea; color: #1d5e37;}
+        .status-due {background: #fff4e5; color: #8a4b00;}
+        .status-overdue {background: #fde8e7; color: #a12622;}
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🌱 Plant Care Guide 🌱</h1>
+        <h1>🌱 Felicia's Plant Care Guide 🌱</h1>
+        
         <div class="category-section">
-            <h2>🌺 Tropical & Foliage Plants</h2>
+            <h2 class="category-title">🌺 Tropical & Foliage Plants</h2>
             <div class="plants-grid">
                 <div class="plant-card">
-                    <img src="pink-princess-philadendron.jpeg" alt="Pink Princess Philodendron">
+                    <img src="Felicias-Plants/pink_princess_philodendron.jpg" alt="Pink Princess Philodendron">
                     <h3>Pink Princess Philodendron</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Let top inch of soil dry before watering.</li>
-                        <li><strong>Notes:</strong> Prefers moderate to high humidity. Avoid direct sunlight to preserve variegation.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect (more light maintains pink).</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top 1–2" dry; balanced feed monthly spring–summer; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate (50% ideal).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Give a moss pole; prune green shoots to preserve variegation.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="calathea.jpeg" alt="Calathea (likely roseopicta)">
-                    <h3>Calathea (likely roseopicta)</h3>
+                    <img src="Felicias-Plants/calathea_roseopicta_dottie.jpg" alt="Calathea Roseopicta Dottie">
+                    <h3>Calathea roseopicta ‘Dottie’</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Low to medium indirect light.</li>
-                        <li><strong>Water:</strong> Keep soil consistently moist, not soggy.</li>
-                        <li><strong>Notes:</strong> High humidity is essential. Use distilled water to avoid leaf browning.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright–medium indirect; no direct sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Keep evenly moist, never soggy; small, regular drinks; half-strength foliage feed monthly spring–summer; Distilled/RO: strongly preferred.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> High (60–70%+).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Self-watering/globe can help; warm, draft-free.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="rattlesnake-plant.jpeg" alt="Rattlesnake Plant (Calathea lancifolia)">
-                    <h3>Rattlesnake Plant (Calathea lancifolia)</h3>
+                    <img src="Felicias-Plants/calathea_roseopicta_medallion.jpg" alt="Calathea Roseopicta Medallion">
+                    <h3>Calathea roseopicta ‘Medallion’</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Low to medium indirect light.</li>
-                        <li><strong>Water:</strong> Keep soil consistently moist.</li>
-                        <li><strong>Notes:</strong> High humidity is essential. Use distilled water if possible.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright–medium indirect.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Evenly moist; light, frequent waterings; half-strength monthly in season; Distilled/RO: strongly preferred.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> High (60–70%+).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Globe/self-watering ok; avoid cold leaves.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="croton.jpeg" alt="Croton">
-                    <h3>Croton</h3>
+                    <img src="Felicias-Plants/rattlesnake_plant.jpg" alt="Rattlesnake Plant">
+                    <h3>Rattlesnake Plant (Calathea/Goeppertia lancifolia)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Keep soil moist but not soggy.</li>
-                        <li><strong>Notes:</strong> High humidity preferred. Sensitive to drafts and low light.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright–medium indirect.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Keep evenly moist; light, frequent waterings; half-strength monthly in season; Distilled/RO: strongly preferred.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> High (60–70%+).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Globe/self-watering helpful; warm, no drafts.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="Whie-knight.jpeg" alt="White Knight Philodendron">
+                    <img src="Felicias-Plants/croton.jpg" alt="Croton">
+                    <h3>Croton (Codiaeum variegatum)</h3>
+                    <ul class="care-tips">
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright light; a few hours direct sun keeps color.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Keep evenly moist; don’t let fully dry; balanced feed monthly spring–summer; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Higher is better (50–60%+).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Hates change/drafts—keep in one stable, bright spot.</li>
+                    </ul>
+                </div>
+                
+                <div class="plant-card">
+                    <img src="Felicias-Plants/white_knight_philodendron.jpg" alt="White Knight Philodendron">
                     <h3>White Knight Philodendron</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Let top inch of soil dry before watering.</li>
-                        <li><strong>Notes:</strong> Moderate to high humidity. Wipe leaves occasionally.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect; avoid strong direct sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top 1–2" dry; balanced feed monthly spring–summer; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate (50% ideal).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Provide a stake/moss pole; rotate for even variegation.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="snake-plant.jpeg" alt="Snake Plant">
-                    <h3>Snake Plant</h3>
+                    <img src="Felicias-Plants/monstera_deliciosa.jpg" alt="Monstera Deliciosa">
+                    <h3>Monstera deliciosa</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Low to bright indirect light.</li>
-                        <li><strong>Water:</strong> Let soil dry completely between watering.</li>
-                        <li><strong>Notes:</strong> Very tolerant. Avoid overwatering.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect; tolerates some gentle morning sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top 2–3" dry; balanced feed monthly spring–summer; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate (40–60%).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Loves a moss pole/trellis for bigger fenestrations.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="monstera-delicioisa.jpeg" alt="Monstera Deliciosa">
-                    <h3>Monstera Deliciosa</h3>
+                    <img src="Felicias-Plants/swiss_cheese_monstera.jpg" alt="Swiss Cheese Monstera">
+                    <h3>Swiss Cheese Monstera (Monstera adansonii)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><strong>Notes:</strong> Likes moderate humidity. Stake or plank for support.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top 1–2" dry; balanced feed monthly in season; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate–high.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Will climb; attach to a pole for larger leaves.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="polka-dot-plants.jpeg" alt="Polka Dot Plants (Hypoestes phyllostachya)">
-                    <h3>Polka Dot Plants (Hypoestes phyllostachya)</h3>
+                    <img src="Felicias-Plants/polka_dot_begonia.jpg" alt="Polka Dot Begonia">
+                    <h3>Polka Dot Begonia (Begonia maculata)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Keep soil lightly moist.</li>
-                        <li><strong>Notes:</strong> High humidity preferred. Pinch back regularly to prevent legginess.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect; avoid harsh sun on leaves.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top 1" just dries; begonia-safe fertilizer 1/2-strength monthly; Distilled/RO: helpful.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Higher is better (50–60%+).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Stake canes; prune for fullness; avoid wet leaves at night.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="tradescantia.jpeg" alt="Tradescantia (Rainbow variety)">
-                    <h3>Tradescantia (Rainbow variety)</h3>
+                    <img src="Felicias-Plants/polka_dot_plant_pink.jpg" alt="Polka Dot Plant Pink">
+                    <h3>Polka Dot Plant – pink (Hypoestes)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Keep soil slightly moist.</li>
-                        <li><strong>Notes:</strong> Medium humidity. Pinch tips to maintain fullness.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright–medium indirect.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Evenly moist; light feed every 2–4 wks; Distilled: optional.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate–high.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Pinch; globe ok.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="Bromeliad.jpeg" alt="Bromeliad">
-                    <h3>Bromeliad</h3>
+                    <img src="Felicias-Plants/polka_dot_plant_white.jpg" alt="Polka Dot Plant White">
+                    <h3>Polka Dot Plant – white (Hypoestes)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Keep water in central 'cup'.</li>
-                        <li><strong>Notes:</strong> Flush cup weekly to prevent buildup. Moderate to high humidity.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright–medium indirect.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Evenly moist; light feed every 2–4 wks; Distilled: optional.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate–high.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Pinch; globe ok.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="orchid.jpeg" alt="Orchid (Phalaenopsis)">
-                    <h3>Orchid (Phalaenopsis)</h3>
+                    <img src="Felicias-Plants/wandering_dude_tradescantia.jpg" alt="Wandering Dude Tradescantia">
+                    <h3>Wandering Dude (Tradescantia zebrina)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Water weekly in bark mix.</li>
-                        <li><strong>Notes:</strong> Avoid wetting crown. High humidity preferred.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect to gentle direct.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top 1" dry; balanced feed monthly spring–summer; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Average–moderate.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Pinch frequently for bushiness; easy to root cuttings.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="pothos.jpeg" alt="Pothos">
-                    <h3>Pothos</h3>
+                    <img src="Felicias-Plants/neoregelia_bromeliad.jpg" alt="Neoregelia Bromeliad">
+                    <h3>Neoregelia Bromeliad</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Low to bright indirect light.</li>
-                        <li><strong>Water:</strong> Let top inch of soil dry before watering.</li>
-                        <li><strong>Notes:</strong> Very tolerant; can grow in water or soil.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect, some gentle sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Keep central cup filled with fresh water; keep soil just barely moist; very dilute fertilizer occasionally in cup; Distilled/RO: preferred to avoid mineral spotting.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> High (60%+).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Flush cup monthly to prevent stagnation.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="bamboo.jpeg" alt="Bamboo">
-                    <h3>Bamboo</h3>
+                    <img src="Felicias-Plants/moth_orchid.jpg" alt="Moth Orchid">
+                    <h3>Moth Orchid (Phalaenopsis)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Low to medium indirect light.</li>
-                        <li><strong>Water:</strong> Keep roots submerged in water and change weekly.</li>
-                        <li><strong>Notes:</strong> Ensure stems remain above water level.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect (no hot sun).</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when bark is nearly dry/roots turn silvery (about weekly); 1/4-strength orchid fertilizer “weakly weekly”; Distilled/RO: fine if you fertilize (adds Ca/Mg).</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate (40–60%).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Soak-drain method; never leave water in crown.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="bird-of-paradise.jpeg" alt="Bird of Paradise">
-                    <h3>Bird of Paradise</h3>
+                    <img src="Felicias-Plants/pink_moth_orchid.jpg" alt="Pink Moth Orchid">
+                    <h3>Pink Moth Orchid (Phalaenopsis, pink cultivar)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect to direct light.</li>
-                        <li><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><strong>Notes:</strong> Prefers high humidity; fertilize during growing season.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when bark nearly dry; 1/4-strength orchid fertilizer “weakly weekly”; Distilled/RO: fine with fertilizer.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Soak-drain; avoid crown water.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="rubber-plant.jpeg" alt="Rubber Plant">
-                    <h3>Rubber Plant</h3>
+                    <img src="Felicias-Plants/golden_pothos.jpg" alt="Golden Pothos">
+                    <h3>Golden Pothos (Epipremnum aureum)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><strong>Notes:</strong> Wipe leaves to remove dust; avoid cold drafts.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright–medium indirect; tolerates low.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top 1–2" dry; balanced feed monthly spring–summer; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Average.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Trailing or climbing; extremely forgiving.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="alocasia-green-dragon.jpeg" alt="Alocasia Green Dragon">
-                    <h3>Alocasia Green Dragon</h3>
+                    <img src="Felicias-Plants/silver_pothos.jpg" alt="Silver Pothos">
+                    <h3>Silver Pothos (Scindapsus pictus)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Keep soil evenly moist.</li>
-                        <li><strong>Notes:</strong> High humidity and warmth appreciated.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect (keeps silvery variegation).</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top 1–2" dry; balanced feed monthly spring–summer; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Trailing/climbing; avoid strong midday sun.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="monstera-adansonii.jpeg" alt="Monstera Adansonii">
-                    <h3>Monstera Adansonii</h3>
+                    <img src="Felicias-Plants/bamboo.jpg" alt="Bamboo">
+                    <h3>Lucky Bamboo (Dracaena sanderiana)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><strong>Notes:</strong> Provide support for climbing; enjoys humidity.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright–medium indirect; no direct sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> If in water: keep roots submerged, change water weekly, add a drop of hydroponic fertilizer monthly; Distilled/RO: preferred (fluoride/chlorine sensitive).</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Average.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> If potted, keep evenly moist, never soggy.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="piper-crocatum.jpeg" alt="Piper crocatum">
+                    <img src="Felicias-Plants/bird_of_paradise.jpg" alt="Bird of Paradise">
+                    <h3>Bird of Paradise (Strelitzia)</h3>
+                    <ul class="care-tips">
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Very bright light; several hours of direct sun best.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top 1–2" dry; flush pot thoroughly; balanced feed monthly spring–summer; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Average–moderate.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Big pot, strong light = faster growth; natural leaf splits are normal.</li>
+                    </ul>
+                </div>
+                
+                <div class="plant-card">
+                    <img src="Felicias-Plants/rubber_plant.jpg" alt="Rubber Plant">
+                    <h3>Rubber Plant (Ficus elastica)</h3>
+                    <ul class="care-tips">
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect; some gentle morning sun ok.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top half of pot is dry; balanced feed monthly spring–summer; Distilled: not required (wipe leaves if hard-water spots).</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Average.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Likes bright, stable spot; rotate for even growth.</li>
+                    </ul>
+                </div>
+                
+                <div class="plant-card">
+                    <img src="Felicias-Plants/green_dragon_alocasia.jpg" alt="Green Dragon Alocasia">
+                    <h3>Green Dragon Alocasia (A. baginda group)</h3>
+                    <ul class="care-tips">
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Keep slightly moist; don’t let fully dry; half-strength monthly in warm months; Distilled/RO: helpful (can be mineral-sensitive).</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate–high (50–65%+).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Warmth and consistent moisture; dormant spells possible.</li>
+                    </ul>
+                </div>
+                
+                <div class="plant-card">
+                    <img src="Felicias-Plants/piper_cocatum.jpg" alt="Piper Cocatum">
                     <h3>Piper crocatum</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Keep soil slightly moist.</li>
-                        <li><strong>Notes:</strong> High humidity required; avoid direct sun.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect, no direct sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Keep evenly moist (never dry or soggy); light feed monthly; Distilled/RO: preferred.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> High (70–90%).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Best in a closed terrarium/dome; warm and draft-free.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="dracaena-fragrans.jpeg" alt="Dracaena fragrans (Jessina)">
-                    <h3>Dracaena fragrans (Jessina)</h3>
+                    <img src="Felicias-Plants/silver_splash_hoya.jpg" alt="Silver Splash Hoya">
+                    <h3>Silver Splash Hoya (Hoya, vining)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Low to medium indirect light.</li>
-                        <li><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><strong>Notes:</strong> Avoid fluoride in water; tolerant of low light.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect to a few hours soft direct.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water thoroughly, then dry most of the way; bloom-boosting fertilizer lightly in season; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate (40–60%).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Blooms when root-bound and bright; don’t remove peduncles.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="scindapsus-silver-exotica.jpeg" alt="Scindapsus Silver Exotica">
-                    <h3>Scindapsus Silver Exotica</h3>
+                    <img src="Felicias-Plants/spider_plant.jpg" alt="Spider Plant">
+                    <h3>Spider Plant (Chlorophytum comosum)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Medium to bright indirect light.</li>
-                        <li><strong>Water:</strong> Let top inch of soil dry before watering.</li>
-                        <li><strong>Notes:</strong> Trailing vine; avoid direct sun.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright–medium indirect.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top 1–2" dry; balanced feed monthly spring–summer; Distilled/RO: helpful (fluoride sensitive).</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Average–moderate.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Sends runners (“spiderettes”); self-watering ok if airy mix.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="dischidia-ovata.jpeg" alt="Dischidia ovata">
-                    <h3>Dischidia ovata</h3>
+                    <img src="Felicias-Plants/variegated_creeping_fig.jpg" alt="Variegated Creeping Fig">
+                    <h3>Variegated Creeping Fig (Ficus pumila ‘Variegata’)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Allow soil to dry slightly between waterings.</li>
-                        <li><strong>Notes:</strong> Prefers high humidity and good air circulation.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright–medium indirect.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Keep evenly moist; light feed monthly spring–summer; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Higher is better (50%+).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Clinging vine—can attach to surfaces; prune to contain.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="red-vein-maranta.jpeg" alt="Red Vein Maranta">
-                    <h3>Red Vein Maranta</h3>
+                    <img src="Felicias-Plants/watermelon_peperomia.jpg" alt="Watermelon Peperomia">
+                    <h3>Watermelon Peperomia (Peperomia argyreia)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Low to medium indirect light.</li>
-                        <li><strong>Water:</strong> Keep soil consistently moist.</li>
-                        <li><strong>Notes:</strong> Leaves fold at night; high humidity preferred.</li>
-                    </ul>
-                </div>
-                <div class="plant-card">
-                    <img src="spider-plant-vittatum.jpeg" alt="Spider Plant Vittatum">
-                    <h3>Spider Plant Vittatum</h3>
-                    <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><strong>Notes:</strong> Produces plantlets; tolerant of neglect.</li>
-                    </ul>
-                </div>
-                <div class="plant-card">
-                    <img src="peperomia-rotundifolia.jpeg" alt="Peperomia Rotundifolia">
-                    <h3>Peperomia Rotundifolia</h3>
-                    <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Let top inch of soil dry before watering.</li>
-                        <li><strong>Notes:</strong> Trailing habit; enjoys humidity.</li>
-                    </ul>
-                </div>
-                <div class="plant-card">
-                    <img src="peperomia-argyreia.jpeg" alt="Peperomia Argyreia">
-                    <h3>Peperomia Argyreia</h3>
-                    <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><strong>Notes:</strong> Avoid direct sun; sensitive to overwatering.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="pothos.jpeg" alt="Pothos" class="plant-image">
-                    <h3 class="plant-name">Pothos</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Low to bright indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> Very tolerant. Can grow in water or soil. Trim to maintain shape.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="bird-of-paradise.jpeg" alt="Bird of Paradise" class="plant-image">
-                    <h3 class="plant-name">Bird of Paradise</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect to direct light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Keep soil moist but not soggy.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> High humidity preferred. Wipe leaves regularly. Needs space to grow.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="rubber-plant.jpeg" alt="Rubber Plant" class="plant-image">
-                    <h3 class="plant-name">Rubber Plant</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> Wipe leaves regularly. Moderate humidity. Can grow quite large.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="alocasia-green-dragon.jpeg" alt="Alocasia Green Dragon" class="plant-image">
-                    <h3 class="plant-name">Alocasia Green Dragon</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Keep soil consistently moist but not waterlogged.</li>
-                        <li><span class="emoji-icon">💨</span><strong>Notes:</strong> High humidity essential. Sensitive to temperature changes.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="monstera-adansonii.jpeg" alt="Monstera Adansonii" class="plant-image">
-                    <h3 class="plant-name">Monstera Adansonii</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> Provide climbing support. Moderate to high humidity.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="piper-crocatum.jpeg" alt="Piper Crocatum" class="plant-image">
-                    <h3 class="plant-name">Piper Crocatum (Glass Globe)</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Keep soil moist but not soggy.</li>
-                        <li><span class="emoji-icon">💨</span><strong>Notes:</strong> High humidity required. Beautiful silver markings on leaves.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="dracaena-fragrans.jpeg" alt="Dracaena Fragrans" class="plant-image">
-                    <h3 class="plant-name">Dracaena Fragrans (Jessina)</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Low to medium indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> Very tolerant. Use distilled water to prevent leaf browning.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="scindapsus-silver.jpeg" alt="Scindapsus Silver Exotica" class="plant-image">
-                    <h3 class="plant-name">Scindapsus Silver Exotica (Silver Pothos)</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> Moderate humidity. Beautiful silver variegation on leaves.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="dischidia-ovata.jpeg" alt="Dischidia Ovata" class="plant-image">
-                    <h3 class="plant-name">Dischidia Ovata (Hanging)</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Water when soil is almost dry.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> Epiphytic plant. High humidity preferred. Good for hanging baskets.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="red-vein-maranta.jpeg" alt="Red Vein Maranta" class="plant-image">
-                    <h3 class="plant-name">Red Vein Maranta (Prayer Plant)</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Low to medium indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Keep soil consistently moist.</li>
-                        <li><span class="emoji-icon">💨</span><strong>Notes:</strong> High humidity essential. Leaves fold at night like praying hands.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="spider-plant.jpeg" alt="Spider Plant Vittatum" class="plant-image">
-                    <h3 class="plant-name">Spider Plant Vittatum</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> Very easy to care for. Produces plantlets for propagation.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="peperomia-rotundifolia.jpeg" alt="Peperomia Rotundifolia" class="plant-image">
-                    <h3 class="plant-name">Peperomia Rotundifolia (Trailing Jade)</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> Moderate humidity. Great for hanging baskets or trailing displays.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="peperomia-argyreia.jpeg" alt="Peperomia Argyreia" class="plant-image">
-                    <h3 class="plant-name">Peperomia Argyreia (Watermelon Plant)</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Water when top inch of soil is dry.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> Moderate humidity. Distinctive watermelon-striped leaves.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water when top 1" dry; light feed monthly in season; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate (50%+ ideal).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Thick leaves store water—avoid overwatering; no globe.</li>
                     </ul>
                 </div>
             </div>
         </div>
+        
         <div class="category-section">
-            <h2>🌵 Succulents & Cacti</h2>
+            <h2 class="category-title">🌵 Succulents & Cacti</h2>
             <div class="plants-grid">
                 <div class="plant-card">
-                    <img src="suculents.jpeg" alt="Succulents (zebra haworthia + haworthia cooperi)">
-                    <h3>Succulents (zebra haworthia + haworthia cooperi)</h3>
+                    <img src="Felicias-Plants/echeveria_elegans.jpg" alt="Echeveria Elegans">
+                    <h3>Echeveria elegans</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright direct light.</li>
-                        <li><strong>Water:</strong> Allow soil to dry completely between waterings.</li>
-                        <li><strong>Notes:</strong> Low humidity. Use a gritty, well-draining soil mix.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Full sun/very bright light.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Soak then bone-dry; cactus feed 1/4-strength monthly growing season; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Rosette must stay dry; no globe.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="cactus-and-succulent.jpeg" alt="Cactus + Echeveria">
-                    <h3>Cactus + Echeveria</h3>
+                    <img src="Felicias-Plants/ghost_echeveria.jpg" alt="Ghost Echeveria">
+                    <h3>Ghost Echeveria (Echeveria ‘Lilacina’/similar)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Full sun.</li>
-                        <li><strong>Water:</strong> Let soil dry out completely before watering.</li>
-                        <li><strong>Notes:</strong> Very low humidity needs. Avoid cold drafts.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Full sun/very bright.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Dry fully between deep waterings; weak cactus feed monthly in season; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Great drainage; no globe.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="more-succulents.jpeg" alt="Assorted Cactus">
-                    <h3>Assorted Cactus</h3>
+                    <img src="Felicias-Plants/baby_toes_cactus.jpg" alt="Baby Toes Cactus">
+                    <h3>Baby Toes Cactus (Fenestraria)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright direct light.</li>
-                        <li><strong>Water:</strong> Minimal water.</li>
-                        <li><strong>Notes:</strong> Ensure excellent drainage. Rotate to promote even growth.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Very bright light; a few hours direct sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Thorough soak, then dry fully; water sparingly in winter; cactus feed very weak monthly in growing season; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Deep pot with gritty mix; avoid globe.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="propeller-plant.jpeg" alt="Propeller Plant (Crassula perfoliata)">
-                    <h3>Propeller Plant (Crassula perfoliata)</h3>
+                    <img src="Felicias-Plants/bunny_ear_cactus.jpg" alt="Bunny Ear Cactus">
+                    <h3>Bunny Ear Cactus (Opuntia microdasys)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright direct sun.</li>
-                        <li><strong>Water:</strong> Let soil dry fully.</li>
-                        <li><strong>Notes:</strong> Low humidity. Avoid misting or overwatering.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Full sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Soak then dry completely; very little in winter; cactus feed 1/4-strength monthly warm season; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Don’t touch—tiny glochids; no globe.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="string-of-pearls.jpeg" alt="String of Pearls">
-                    <h3>String of Pearls</h3>
+                    <img src="Felicias-Plants/gymnocalycium_cactus.jpg" alt="Gymnocalycium Cactus">
+                    <h3>Gymnocalycium Cactus</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect to direct light.</li>
-                        <li><strong>Water:</strong> Let soil dry fully between waterings.</li>
-                        <li><strong>Notes:</strong> Low humidity. Use shallow pots with drainage.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Very bright light; some direct sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Deep soak then fully dry; minimal in winter; weak cactus feed monthly warm season; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Likes a cool, dry winter rest.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="aloe-vera.jpeg" alt="Aloe Vera">
-                    <h3>Aloe Vera</h3>
+                    <img src="Felicias-Plants/ladyfinger_cactus.jpg" alt="Ladyfinger Cactus">
+                    <h3>Ladyfinger Cactus (Mammillaria elongata)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright direct light.</li>
-                        <li><strong>Water:</strong> Let soil dry completely before watering.</li>
-                        <li><strong>Notes:</strong> Low humidity. Avoid cold or drafty areas.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Full sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Soak-dry cycle; very sparse in winter; weak cactus feed in season; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Compact, offsets readily; no globe.</li>
                     </ul>
                 </div>
+                
                 <div class="plant-card">
-                    <img src="kalanchoe-tomentosa.jpeg" alt="Kalanchoe tomentosa">
-                    <h3>Kalanchoe tomentosa</h3>
+                    <img src="Felicias-Plants/spiny_pincushion_cactus.jpg" alt="Spiny Pincushion Cactus">
+                    <h3>Spiny Pincushion Cactus (Mammillaria sp.)</h3>
                     <ul class="care-tips">
-                        <li><strong>Light:</strong> Bright indirect light.</li>
-                        <li><strong>Water:</strong> Let soil dry completely before watering.</li>
-                        <li><strong>Notes:</strong> Fuzzy leaves; avoid getting them wet.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Full sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Soak-dry; very light in winter; weak cactus feed in season; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Excellent drainage; no globe.</li>
                     </ul>
                 </div>
-
+                
                 <div class="plant-card">
-                    <img src="kalanchoe-tomentosa.jpeg" alt="Kalanchoe Tomentosa" class="plant-image">
-                    <h3 class="plant-name">Kalanchoe Tomentosa (Panda Plant)</h3>
+                    <img src="Felicias-Plants/string_of_pearls.jpg" alt="String of Pearls">
+                    <h3>String of Pearls (Curio/Senecio rowleyanus)</h3>
                     <ul class="care-tips">
-                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright direct light.</li>
-                        <li><span class="emoji-icon">💧</span><strong>Water:</strong> Water deeply but infrequently.</li>
-                        <li><span class="emoji-icon">🐾</span><strong>Notes:</strong> Fuzzy, velvety leaves. Low humidity. Very drought tolerant.</li>
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Very bright light; a few hours direct sun indoors.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Water thoroughly, then dry fully; sparse in winter; succulent feed 1/4-strength monthly warm months; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Use shallow, free-draining pot; avoid globe/self-watering.</li>
+                    </ul>
+                </div>
+                
+                <div class="plant-card">
+                    <img src="Felicias-Plants/string_of_turtles.jpg" alt="String of Turtles">
+                    <h3>String of Turtles (Peperomia prostrata)</h3>
+                    <ul class="care-tips">
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright indirect (no hot sun).</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Keep lightly moist—never sopping; let top 1/2" dry; very light feed monthly spring–summer; Distilled: not required.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Moderate (50%+ ideal).</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Fine roots—use airy mix; avoid globe.</li>
+                    </ul>
+                </div>
+                
+                <div class="plant-card">
+                    <img src="Felicias-Plants/aloe_vera.jpg" alt="Aloe Vera">
+                    <h3>Aloe vera</h3>
+                    <ul class="care-tips">
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright direct sun 4–6h (or very bright indirect).</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Let soil dry completely; deep water every 2–4 wks; cactus feed 1/4-strength monthly spring–summer; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Very fast-draining gritty mix; no globes/self-watering.</li>
+                    </ul>
+                </div>
+                
+                <div class="plant-card">
+                    <img src="Felicias-Plants/panda_plant.jpg" alt="Panda Plant">
+                    <h3>Panda Plant (Kalanchoe tomentosa)</h3>
+                    <ul class="care-tips">
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright light, some direct sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Dry fully; sparse water; weak cactus feed monthly warm season; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Hairy leaves—avoid misting; no globe.</li>
+                    </ul>
+                </div>
+                
+                <div class="plant-card">
+                    <img src="Felicias-Plants/paddle_plant.jpg" alt="Paddle Plant">
+                    <h3>Paddle Plant (Kalanchoe thyrsiflora/luciae)</h3>
+                    <ul class="care-tips">
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Full sun/very bright light (color improves with sun).</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Dry fully between waterings; cactus feed 1/4-strength monthly warm season; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Gritty mix; no globe.</li>
+                    </ul>
+                </div>
+                
+                <div class="plant-card">
+                    <img src="Felicias-Plants/coral_cactus_with_mermaid_tail.jpg" alt="Coral Cactus with Mermaid Tail">
+                    <h3>Coral Cactus / “Mermaid Tail” (Euphorbia lactea cristata, grafted)</h3>
+                    <ul class="care-tips">
+                        <li><span class="emoji-icon">☀️</span><strong>Light:</strong> Bright light with some direct sun.</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Allow full dry between waters; very light cactus feed monthly warm season; Distilled: not needed.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Low.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Avoid cold and overwatering; latex sap is toxic; no misting/globe.</li>
                     </ul>
                 </div>
             </div>
@@ -462,36 +475,183 @@
             <h2 class="category-title">🐠 Aquatic & Fish Tank Plants</h2>
             <div class="plants-grid">
                 <div class="plant-card">
-                    <img src="pothos-aquatic.jpeg" alt="Pothos in Fish Tank" class="plant-image">
-                    <h3 class="plant-name">Pothos (Aquatic)</h3>
+                    <img src="Felicias-Plants/fishtank_plants.jpg" alt="Fish Tank Plants">
+                    <h3>Fishtank Plants (pothos/lucky bamboo/tradescantia in aquarium)</h3>
                     <ul class="care-tips">
-                        <li><span class="emoji-icon">💡</span><strong>Light:</strong> Aquarium lighting or bright indirect light.</li>
-                        <li><span class="emoji-icon">🐠</span><strong>Water:</strong> Roots submerged in fish tank water.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> Helps filter tank water. Keep leaves above waterline.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="bamboo-aquatic.jpeg" alt="Bamboo in Fish Tank" class="plant-image">
-                    <h3 class="plant-name">Bamboo (Aquatic)</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">💡</span><strong>Light:</strong> Low to medium aquarium lighting.</li>
-                        <li><span class="emoji-icon">🐠</span><strong>Water:</strong> Grows well in fish tank water.</li>
-                        <li><span class="emoji-icon">🌱</span><strong>Notes:</strong> Actually Dracaena sanderiana. Excellent for aquariums.</li>
-                    </ul>
-                </div>
-
-                <div class="plant-card">
-                    <img src="tradescantia-aquatic.jpeg" alt="Tradescantia in Fish Tank" class="plant-image">
-                    <h3 class="plant-name">Tradescantia (Aquatic)</h3>
-                    <ul class="care-tips">
-                        <li><span class="emoji-icon">💡</span><strong>Light:</strong> Bright aquarium lighting.</li>
-                        <li><span class="emoji-icon">🐠</span><strong>Water:</strong> Roots in water, leaves above surface.</li>
-                        <li><span class="emoji-icon">✂️</span><strong>Notes:</strong> Fast growing. Trim regularly to maintain shape.</li>
+                        <li><span class="emoji-icon">💡</span><strong>Light:</strong> Bright–medium indirect (leaves above water).</li>
+                        <li><span class="emoji-icon">💧</span><strong>Water & Fertilizer:</strong> Rinse roots occasionally; do not add houseplant fertilizer to tank—rely on fish waste or fish-safe nutrients; Distilled: not necessary if tank is stable.</li>
+                        <li><span class="emoji-icon">💦</span><strong>Humidity:</strong> Ambient.</li>
+                        <li><span class="emoji-icon">🌱</span><strong>Additional Info:</strong> Keep only roots submerged; leaves/stems above waterline.</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script>
+      const SUPABASE_URL = 'https://YOUR-PROJECT-REF.supabase.co';
+      const SUPABASE_ANON_KEY = 'YOUR-ANON-PUBLIC-KEY';
+
+      const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+      function defaultIntervalForCategory(categoryTitle) {
+        const title = (categoryTitle || '').toLowerCase();
+        if (title.includes('succulents') || title.includes('cacti')) return 21;
+        if (title.includes('aquatic') || title.includes('fish')) return 7;
+        return 7;
+      }
+
+      function addDays(date, days) {
+        const d = new Date(date);
+        d.setDate(d.getDate() + Number(days || 0));
+        return d;
+      }
+
+      function formatDate(dt) {
+        if (!dt) return '—';
+        const d = new Date(dt);
+        return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+      }
+
+      function formatRelative(target) {
+        if (!target) return '';
+        const now = new Date();
+        const t = new Date(target);
+        const diffMs = t - now;
+        const oneDay = 24 * 60 * 60 * 1000;
+        const days = Math.round(diffMs / oneDay);
+        if (days > 1) return `in ${days} days`;
+        if (days === 1) return 'tomorrow';
+        if (days === 0) return 'today';
+        if (days === -1) return 'yesterday';
+        return `${Math.abs(days)} days ago`;
+      }
+
+      function statusClass(nextDue) {
+        if (!nextDue) return 'status-due';
+        const now = new Date();
+        const t = new Date(nextDue);
+        if (t < now) return 'status-overdue';
+        const diffDays = Math.round((t - now) / (24 * 60 * 60 * 1000));
+        return diffDays <= 1 ? 'status-due' : 'status-ok';
+      }
+
+      function createControls(card, plantName, categoryTitle, initialRow) {
+        const controls = document.createElement('div');
+        controls.className = 'watering-controls';
+
+        const nextDueSpan = document.createElement('div');
+        nextDueSpan.className = 'next-due';
+        nextDueSpan.textContent = 'Loading…';
+
+        const intervalWrap = document.createElement('div');
+        intervalWrap.className = 'interval-wrap';
+        const intervalLabel = document.createElement('label');
+        intervalLabel.textContent = 'Interval:';
+        const intervalInput = document.createElement('input');
+        intervalInput.type = 'number';
+        intervalInput.min = '1';
+        intervalInput.step = '1';
+        intervalInput.className = 'interval-input';
+
+        const defaultInterval = initialRow?.default_interval_days || defaultIntervalForCategory(categoryTitle);
+        intervalInput.value = defaultInterval;
+
+        intervalWrap.appendChild(intervalLabel);
+        intervalWrap.appendChild(intervalInput);
+
+        const waterBtn = document.createElement('button');
+        waterBtn.className = 'water-btn';
+        waterBtn.textContent = 'Mark watered';
+
+        controls.appendChild(nextDueSpan);
+        controls.appendChild(intervalWrap);
+        controls.appendChild(waterBtn);
+
+        card.appendChild(controls);
+
+        function render(row) {
+          const nextDue = row?.next_water_due_at || (row?.last_watered_at && addDays(row.last_watered_at, row.default_interval_days)) || null;
+          const pill = document.createElement('span');
+          pill.className = `status-pill ${statusClass(nextDue)}`;
+          pill.textContent = nextDue ? formatRelative(nextDue) : 'set schedule';
+          nextDueSpan.innerHTML = `Next water: ${formatDate(nextDue)} `;
+          nextDueSpan.appendChild(pill);
+        }
+
+        render(initialRow || null);
+
+        intervalInput.addEventListener('change', async () => {
+          const intervalDays = parseInt(intervalInput.value, 10) || defaultIntervalForCategory(categoryTitle);
+          const lastWatered = initialRow?.last_watered_at || null;
+          const nextDue = lastWatered ? addDays(lastWatered, intervalDays).toISOString() : null;
+          const { error } = await sb.from('waterings').upsert({
+            plant_name: plantName,
+            category: categoryTitle,
+            default_interval_days: intervalDays,
+            next_water_due_at: nextDue,
+          });
+          if (error) {
+            console.error(error);
+            alert('Failed to save interval');
+            return;
+          }
+          initialRow = { ...(initialRow || {}), default_interval_days: intervalDays, next_water_due_at: nextDue };
+          render(initialRow);
+        });
+
+        waterBtn.addEventListener('click', async () => {
+          waterBtn.disabled = true;
+          const intervalDays = parseInt(intervalInput.value, 10) || defaultIntervalForCategory(categoryTitle);
+          const nowIso = new Date().toISOString();
+          const nextDue = addDays(new Date(), intervalDays).toISOString();
+          const { error } = await sb.from('waterings').upsert({
+            plant_name: plantName,
+            category: categoryTitle,
+            default_interval_days: intervalDays,
+            last_watered_at: nowIso,
+            next_water_due_at: nextDue,
+          });
+          waterBtn.disabled = false;
+          if (error) {
+            console.error(error);
+            alert('Failed to mark as watered');
+            return;
+          }
+          initialRow = { default_interval_days: intervalDays, last_watered_at: nowIso, next_water_due_at: nextDue };
+          render(initialRow);
+        });
+      }
+
+      async function initWatering() {
+        try {
+          const nameToCard = [];
+          document.querySelectorAll('.category-section').forEach(section => {
+            const categoryTitle = section.querySelector('h2')?.textContent?.trim() || 'General';
+            section.querySelectorAll('.plant-card').forEach(card => {
+              const plantName = card.querySelector('h3')?.textContent?.trim();
+              if (plantName) {
+                nameToCard.push({ plantName, categoryTitle, card });
+              }
+            });
+          });
+
+          const { data: rows, error } = await sb
+            .from('waterings')
+            .select('plant_name, default_interval_days, last_watered_at, next_water_due_at');
+          if (error) throw error;
+          const rowMap = new Map((rows || []).map(r => [r.plant_name, r]));
+
+          nameToCard.forEach(({ plantName, categoryTitle, card }) => {
+            const row = rowMap.get(plantName) || null;
+            createControls(card, plantName, categoryTitle, row);
+          });
+        } catch (e) {
+          console.warn('Watering UI disabled:', e?.message || e);
+        }
+      }
+
+      document.addEventListener('DOMContentLoaded', initWatering);
+    </script>
 </body>
 </html>
